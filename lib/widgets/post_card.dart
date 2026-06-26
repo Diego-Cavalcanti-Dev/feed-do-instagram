@@ -213,7 +213,7 @@ class _PostCardState extends State<PostCard> {
                 _comments.length == 1
                     ? '1 comentário'
                     : 'Ver todos ${_comments.length} comentários',
-                style: const TextStyle(color: Colors.grey),
+                style: TextStyle(color: Colors.grey.shade500),
               ),
             ),
 
