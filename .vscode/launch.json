@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Flutter Linux",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "linux",
+      "program": "lib/main.dart",
+      "env": {
+        "GSETTINGS_SCHEMA_DIR": "/usr/share/glib-2.0/schemas"
+      }
+    }
+  ]
+}
